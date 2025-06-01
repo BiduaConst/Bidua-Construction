@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bidua Construction Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #FFD166;
+    }
+
+    header {
+      background: #000;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 150px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 15px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #FFD166;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .services, .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .services div, .contact-info div {
+      flex: 1 1 200px;
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-info div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background: #000;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #FFD166;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .services, .contact-info {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Bidua Construction Logo"/>
+  <h1>Bidua Construction Company</h1>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Bidua Construction Company, led by Allan B. Bidua, is dedicated to delivering top-notch construction services—from residential builds to commercial projects. With years of experience and a reputation for quality and trust, we bring your vision to life with precision and professionalism.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div><strong>Residential Construction</strong><br>Complete home builds, renovations, and extensions.</div>
+    <div><strong>Commercial Projects</strong><br>Office spaces, warehouses, and commercial buildings.</div>
+    <div><strong>Project Management</strong><br>Efficient planning, supervision, and execution.</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p>Coming soon — our portfolio of completed builds and satisfied clients.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <div>📞 +63-915-833-2435</div>
+    <div>🌐 <a href="http://www.reallygreatsite.com" target="_blank">www.reallygreatsite.com</a></div>
+    <div>✉️ <a href="mailto:abbidua@gmail.com">abbidua@gmail.com</a></div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Bidua Construction Company. All rights reserved.
+</footer>
+
+</body>
+</html>
